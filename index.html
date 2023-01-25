@@ -143,7 +143,7 @@ $( ".lammoipopupnhantien" ).hover(
           'textFontSize': 24, // Size chữ
           'textOrientation': 'horizontal', // Chữ nằm ngang
           'textAlignment': 'outer', // Căn chỉnh văn bản ra bên ngoài bánh xe.
-          'numSegments': 5, // Số ô
+          'numSegments': 10, // Số ô
           'responsive': true,
           'segments': [{
               'fillStyle': '#910f06',
@@ -161,7 +161,7 @@ $( ".lammoipopupnhantien" ).hover(
           }, 
           {
               'fillStyle': '#910f06',
-              'text': '20.000 VNĐ',
+              'text': '50.000 VNĐ',
               'size': winwheelPercentToDegrees(20),
               'textFontSize': 26,
               'textFillStyle': '#ffffff'
@@ -182,45 +182,45 @@ $( ".lammoipopupnhantien" ).hover(
           }, 
           {
               'fillStyle': '#ab6f03',
-              'text': '50.000 VNĐ',
+              'text': '20.000 VNĐ',
               'size': winwheelPercentToDegrees(7),
               'textFontSize': 20,
               'textFillStyle': '#ffffff'
           }, 
-          // {
-          //     'fillStyle': '#910f06',
-          //     'text': '50.000 VNĐ',
-          //     'size': winwheelPercentToDegrees(6),
-          //     'textFontSize': 18,
-          //     'textFillStyle': '#ffffff'
-          // }, 
-          // {
-          //     'fillStyle': '#ab6f03',
-          //     'text': '100.000 VNĐ',
-          //     'size': winwheelPercentToDegrees(4),
-          //     'textFontSize': 16,
-          //     'textFillStyle': '#ffffff'
-          // },
-          // {
-          //     'fillStyle': '#910f06',
-          //     'text': '200.000 VNĐ',
-          //     'size': winwheelPercentToDegrees(3),
-          //     'textFontSize': 14,
-          //     'textFillStyle': '#ffffff'
-          // }, 
-          // {
-          //     'fillStyle': '#ab6f03',
-          //     'text': '500.000 VNĐ',
-          //     'size': winwheelPercentToDegrees(2),
-          //     'textFontSize': 12,
-          //     'textFillStyle': '#ffffff'
-          // }
+          {
+              'fillStyle': '#910f06',
+              'text': '10.000 VNĐ',
+              'size': winwheelPercentToDegrees(6),
+              'textFontSize': 18,
+              'textFillStyle': '#ffffff'
+          }, 
+          {
+              'fillStyle': '#ab6f03',
+              'text': '10.000 VNĐ',
+              'size': winwheelPercentToDegrees(4),
+              'textFontSize': 16,
+              'textFillStyle': '#ffffff'
+          },
+          {
+              'fillStyle': '#910f06',
+              'text': '20.000 VNĐ',
+              'size': winwheelPercentToDegrees(3),
+              'textFontSize': 14,
+              'textFillStyle': '#ffffff'
+          }, 
+          {
+              'fillStyle': '#ab6f03',
+              'text': '40.000 VNĐ',
+              'size': winwheelPercentToDegrees(2),
+              'textFontSize': 12,
+              'textFillStyle': '#ffffff'
+          }
         ],
           'animation': // Chỉ định hình động để sử dụng.
           {
               'type': 'spinToStop',
               'duration': 20, // Thời lượng tính bằng giây.
-              'spins': 6, // Số vòng quay hoàn chỉnh mặc định.
+              'spins': 10, // Số vòng quay hoàn chỉnh mặc định.
               'callbackFinished': alertPrize,
               'callbackSound': playSound, // Chức năng gọi khi âm thanh đánh dấu được kích hoạt.
               'soundTrigger': 'pin', // Chỉ định các chân là để kích hoạt âm thanh, tùy chọn khác là 'phân đoạn'.
